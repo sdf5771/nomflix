@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# NomFlix
+
+## Screens
+
+- [] Home
+- [] TV Shows
+- [] Search
+- [] Detail
+
+## API Verbs
+
+- [] Now playing
+- [] Upcoming (MOVIE)
+- [] Top Rated (TV
+- [] Popular (TV, MOVIE)
+- [] Airing Today (TV)
+- [] TV Show Detail
+- [] Movie Detail
+- [] Search (MOVIE, TV)
