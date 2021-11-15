@@ -23,7 +23,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-    width : 50px;
+    width : 70px;
     height : 50px;
     text-align : center;
     border-bottom : 3px solid ${props => props.current ? "#3498db" : "transparent"};
