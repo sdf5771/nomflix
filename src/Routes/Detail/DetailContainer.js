@@ -1,5 +1,4 @@
 import { moviesApi, tvApi } from 'api';
-import factoryWithThrowingShims from 'prop-types/factoryWithThrowingShims';
 import React from 'react';
 import DetailPresenter from './DetailPresenter';
 
@@ -34,7 +33,7 @@ export default class extends React.Component{
                 if(isMovie){
                     ({ data: result } = await moviesApi.movieDetail(parsedID));
                 } else {
-                    ({data: result } = await tvApi.showDetail(parsedID));
+                    ({ data: result } = await tvApi.showDetail(parsedID));
                 }
 
 
